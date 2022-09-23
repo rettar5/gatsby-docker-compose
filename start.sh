@@ -12,4 +12,3 @@ fi
 cd $GATSBY_SITE_NAME
 gatsby build
 gatsby serve -H 0.0.0.0 -p $GATSBY_PORT
-

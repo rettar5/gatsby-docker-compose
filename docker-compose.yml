@@ -13,3 +13,4 @@ services:
       GATSBY_SITE_NAME: "${GATSBY_SITE_NAME}"
       GATSBY_PORT: "${GATSBY_PORT}"
     stdin_open: true
+    working_dir: /home/node/app/${GATSBY_SITE_NAME}
